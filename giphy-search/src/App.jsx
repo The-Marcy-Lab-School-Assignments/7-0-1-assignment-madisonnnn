@@ -5,6 +5,7 @@ import { handleFetch } from './utils';
 import { useState, useEffect } from 'react';
 import  API_KEY  from './config';
 
+/** FEEDBACK: Great job! */
 
 function App() {
   const [gifs, setGifs] = useState([]);
